@@ -1,0 +1,13 @@
+resolver: lts-9.6
+
+packages:
+- hedgehog
+- hedgehog-example
+
+extra-deps:
+- filepath-1.3.0.1
+- temporary-resourcet-0.1.0.0
+
+nix:
+  packages:
+    - haskellPackages.happy
